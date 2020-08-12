@@ -1,0 +1,146 @@
+/*CSS MADE BY FREDY REYES 2019035*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+/*Navbar Style*/
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(63, 63, 63);
+}
+.navbar-general{
+    padding-top: 5px;
+}
+.navbar-container{
+    display: inline;
+    margin: 0;
+}
+.navbar-logo .navbar-img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    padding-top: 3px;
+    padding-right: 18px;
+}
+.navbar .navbar-container .navbar-list{
+    list-style-type: none;
+    margin: 13px 10px;
+}
+.navbar .navbar-container .navbar-list .navbar-item{
+    display: inline;
+    padding: 3px;
+    position: relative;
+}
+.navbar .navbar-container .navbar-list .navbar-item a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    padding-right: 15px;
+}
+.navbar .navbar-container .navbar-list .navbar-item a:hover{
+    color: rgb(214, 214, 214);
+}
+/*Prinicpal section*/
+.container{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.container .img-principal{
+    width: 100%;
+    background-repeat: none;
+}
+.container .principal-title{
+    position: absolute;
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+.container .principal-button{
+    position: absolute;
+    width: 13%;
+    top: 50%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 9px;
+}
+.container .principal-button:hover{
+    background-color: #559657;
+    transition-duration: 0.5s;
+}
+.container .principal-button a{
+    color: white;
+}
+/*About section*/
+.about-section{
+    background-color: white;
+    height: 450px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+    padding: 10px;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.about-image{
+    background-image: url(../img/about-img.jpg);
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    border-radius: 4px;
+}
+.description-about{
+    font-size: 20px;
+    text-align: justify;
+    margin: 50px;
+}
+.grid-item .about-button{
+        position: absolute;
+        width: 13%;
+        top: 195%;
+        left: 65%;
+        transform: translate(-50%, -50%);
+        background-color: #373d38;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 9px;
+}
+.grid-item .about-button a{
+    color: white;
+}
+.grid-item .about-button:hover{
+    background-color: #737574;
+    transition-duration: 0.5s;
+}
