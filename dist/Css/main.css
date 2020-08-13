@@ -354,9 +354,57 @@ a{
      opacity: 1;
      color: white;
      background-color: black;
- }
+}
+/*About banner*/
+.about-section{
+    background-image: url(../img/about-banner.jpg);
+    height: 700px;
+    background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.about-section:before{
+	content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+.about-title{
+    position: absolute;
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    animation-name: texto;
+    animation-duration: 5s;
+}
+.about-section a{
+    font-style: none;
+    color: white;
+}
+.Breadcrumb{
+    position: absolute;
+    color: white;
+    font-size: 1.0rem;
+    position: absolute;
+    top: 50%;
+    left: 18.5%;
+    transform: translate(-50%, -50%);
+    animation-name: texto;
+    animation-duration: 5s;
+}
 /* Animations styles*/
 @keyframes imagen{
     from {opacity: 0;}
     to  {opacity: 1;}
+}
+@keyframes texto{
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
