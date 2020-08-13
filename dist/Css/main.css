@@ -92,7 +92,7 @@ a{
 /*About section*/
 .about-section{
     background-color: white;
-    height: 450px;
+    height: 540px;
 }
 .grid-container {
     display: grid;
@@ -125,7 +125,7 @@ a{
         top: 195%;
         left: 65%;
         transform: translate(-50%, -50%);
-        background-color: #373d38;
+        background-color: rgb(61, 61, 61);
         border: none;
         color: white;
         padding: 15px 32px;
@@ -141,6 +141,48 @@ a{
     color: white;
 }
 .grid-item .about-button:hover{
-    background-color: #737574;
+    background-color: #adadad;
     transition-duration: 0.5s;
 }
+/*Contact Us*/
+.contact-us{
+    background-image: url(../img/work-us.jpg);
+    height: 600px;
+}
+.text-center{
+    text-align: center;
+}
+.work-title{
+    padding-top: 8%;
+    padding-right: 1%;
+    font-size: 2.5rem;
+    color: white;
+    text-decoration: none;
+    font-style: none;
+}
+.work-description{
+    font-size: 1.0rem;
+    color: white;
+    text-align: center;
+}
+.button-center{
+    text-align: center;
+}
+.button-center .send-cv{
+    background-color: transparent;
+    border: white solid 2px;
+    color: white;
+    height: 50px;
+    width: 200px;
+}
+.button-center .send-cv:hover{
+    background-color: whitesmoke;
+    color: black;
+    transition-duration: 0.5s;
+}
+
+
+
+
+/*styles*/
+/* Basic styles */
