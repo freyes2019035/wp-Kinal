@@ -141,7 +141,7 @@ a{
 .grid-item .about-button{
         position: absolute;
         width: 13%;
-        top: 195%;
+        top: 190%;
         left: 65%;
         transform: translate(-50%, -50%);
         background-color: rgb(61, 61, 61);
