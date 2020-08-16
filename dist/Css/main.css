@@ -55,14 +55,20 @@ a{
     color: rgb(214, 214, 214);
     transition-duration: 0.5s;
 }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
 /*Prinicpal section*/
 .principal-section{
     background-image: url(../img/principal-banner.jpg);
-    
     width: 100%;
     height: 850px;
-
-}.principal-title{
+    background-attachment: fixed;
+}
+.principal-title{
     position: absolute;
     color: white;
     font-size: 3rem;
@@ -137,11 +143,12 @@ a{
     text-align: justify;
     margin: 50px;
     font-family: 'Lato', sans-serif;
+    line-height: 30px;
 }
 .grid-item .about-button{
         position: absolute;
         width: 13%;
-        top: 190%;
+        top: 195%;
         left: 65%;
         transform: translate(-50%, -50%);
         background-color: rgb(61, 61, 61);
@@ -166,7 +173,8 @@ a{
 /*Contact Us*/
 .contact-us{
     background-image: url(../img/work-us.jpg);
-    height: 600px;
+    height: 750px;
+    background-attachment: fixed;
 }
 .text-center{
     text-align: center;
@@ -375,7 +383,8 @@ a{
     background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	position: relative;
+    position: relative;
+    background-attachment: fixed;
 }
 .about-section:before{
 	content:'';
@@ -412,6 +421,12 @@ a{
     animation-name: texto;
     animation-duration: 5s;
 }
+.Breadcrumb a:hover{
+    text-decoration: underline;
+}
+.about-us{
+    height: 750px;
+}
 .about-us .aboutus-title{
     color: black;
     font-size: 2.5rem;
@@ -424,6 +439,13 @@ a{
     font-size: 14pt;
     word-wrap: break-word;
     font-family: 'Lato', sans-serif;
+    line-height: 30px;
+}
+.date{
+    font-size: 2.5rem;
+    color: #7e5156;
+    border-bottom: 2px solid #7e5156;
+
 }
 .separation{
     border: black solid 1px;
@@ -436,7 +458,7 @@ a{
 }
 .join-us{
     background-color: whitesmoke;
-    height: 500px;
+    height: auto;
 }
 .join-us .join-us-title{
     color: black;
@@ -467,7 +489,8 @@ a{
     background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	position: relative;
+    position: relative;
+    background-attachment: fixed;
 }
 .schedule-section:before{
 	content:'';
@@ -479,6 +502,7 @@ a{
     background-color: rgba(0,0,0,0.6);
 }
 .schedule-title{
+    
     position: absolute;
     color: white;
     font-size: 3rem;
@@ -491,16 +515,17 @@ a{
 }
 .body-schedule{
     color:#777;
-	background:#0CF;
 }
 .form-section{
-    height: 650px;
+    height: 700px;
+    background-color: #F2F2F2;
+    padding-top: 1px;
 }
 .form-section .form-title{
-    color: black;
+    color: whitesmoke;
     font-size: 2.5rem;
     padding-top: 20px;
-    font-family: "Open Sans", Helvetica;
+    font-family: sans-serif;;
 }
 .container {
 	max-width:400px;
@@ -578,7 +603,7 @@ fieldset {
 	cursor:pointer;
 	width:100%;
 	border:none;
-	background:#0CF;
+	background:#ddbea9;
 	color:#FFF;
 	margin:0 0 5px;
 	padding:10px;
@@ -586,7 +611,8 @@ fieldset {
 }
 
 #contact button[type="submit"]:hover {
-	background:#09C;
+    background:#E7D7CA;
+    color: black;
 	-webkit-transition:background 0.3s ease-in-out;
 	-moz-transition:background 0.3s ease-in-out;
 	transition:background-color 0.3s ease-in-out;
@@ -610,7 +636,61 @@ fieldset {
 :-ms-input-placeholder {
  color:#888;
 }
-
+/*Contact Section*/
+.contact-section{
+    background-image: url(../img/contact-banner.jpg);
+    height: 850px;
+    background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+    background-attachment: fixed;
+}
+.contact-section::before{
+        content:'';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0,0,0,0.6);
+}
+.contact-title{
+    position: absolute;
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    top: 35%;
+    left: 14%;
+    animation-name: texto;
+    animation-duration: 5s;
+}
+.contact-info{
+    background-color: #f2f2f2;
+    height: 580px;
+    padding-top: 70px;
+}
+.contact-details{
+    text-align: left;
+    padding-top: 40px;
+    padding-right: 60px;
+    font-family: sans-serif;
+    color: rgb(87, 87, 87);
+    letter-spacing: 0.5px;
+}
+.contact-details .icon-white{
+    border-color: 1px solid black;
+    color: rgb(87, 87, 87);
+}
+.contact-details span{
+    font-size: 18pt;
+    font-style: none;
+    text-decoration: none;
+    padding: 10px;
+}
+.contact-details a{
+    text-decoration: none;
+}
 /* Animations styles*/
 @keyframes imagen{
     from {opacity: 0;}
