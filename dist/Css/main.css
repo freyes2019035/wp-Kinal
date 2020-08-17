@@ -86,7 +86,7 @@ a{
     top: 65%;
     left: 13%;
     transform: translate(-50%, -50%);
-    background-color: #4CAF50;
+    background-color: #a66f69;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -101,8 +101,9 @@ a{
     animation-duration: 4.5s;
 } 
 .principal-button:hover{
-    background-color: #559657;
+    background-color: #d1a09b;
     transition-duration: 0.5s;
+    
 }
 .principal-button a{
     color: white;
@@ -148,10 +149,9 @@ a{
 .grid-item .about-button{
         position: absolute;
         width: 13%;
-        top: 195%;
         left: 65%;
         transform: translate(-50%, -50%);
-        background-color: rgb(61, 61, 61);
+        background-color: #567ba7;
         border: none;
         color: white;
         padding: 15px 32px;
@@ -167,8 +167,9 @@ a{
     color: white;
 }
 .grid-item .about-button:hover{
-    background-color: #adadad;
+    background-color: #4db2d1;
     transition-duration: 0.5s;
+
 }
 /*Contact Us*/
 .contact-us{
@@ -441,6 +442,18 @@ a{
     font-family: 'Lato', sans-serif;
     line-height: 30px;
 }
+.p1{
+    animation-name: p1;
+    animation-duration: 5s;
+}
+.p2{
+    animation-name: p2;
+    animation-duration: 10s;
+}
+.p3{
+    animation-name: p3;
+    animation-duration: 15s;
+}
 .date{
     font-size: 2.5rem;
     color: #7e5156;
@@ -704,6 +717,69 @@ fieldset {
     100% {
         opacity: 0;
         visibility: hidden;
+    }
+}
+@keyframes p1{
+    0% {
+        opacity: 0;
+        visibility: hidden;
+    }
+    25% {
+        opacity: 0.2
+    }
+    50% {
+        opacity: 0.4;
+    }
+    60%{
+        opacity: 0.6;
+    }
+    75%{
+        opacity: 0.8;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes p2{
+    0% {
+        opacity: 0;
+        visibility: hidden;
+    }
+    25% {
+        opacity: 0.2
+    }
+    50% {
+        opacity: 0.4;
+    }
+    60%{
+        opacity: 0.6;
+    }
+    75%{
+        opacity: 0.8;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes p3{
+    0% {
+        opacity: 0;
+        visibility: hidden;
+    }
+    25% {
+        opacity: 0.2
+    }
+    50% {
+        opacity: 0.4;
+    }
+    60%{
+        opacity: 0.6;
+    }
+    75%{
+        opacity: 0.8;
+    }
+    100%{
+        opacity: 1;
     }
 }
 .loader {
