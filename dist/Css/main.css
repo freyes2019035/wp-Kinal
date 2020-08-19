@@ -151,7 +151,7 @@ a{
         width: 13%;
         left: 65%;
         transform: translate(-50%, -50%);
-        background-color: #567ba7;
+        background-color: #b9b8be;
         border: none;
         color: white;
         padding: 15px 32px;
@@ -167,7 +167,7 @@ a{
     color: white;
 }
 .grid-item .about-button:hover{
-    background-color: #4db2d1;
+    background-color: #89888d;
     transition-duration: 0.5s;
 
 }
